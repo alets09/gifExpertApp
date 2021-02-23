@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas para el componente GifGird debe de mostrar imagenes cuando se carga el useFechGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    One punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="title cualquiera"
+      url="http://localhost/cualquier.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`pruebas para el componente GifGird debera hacer match con el snapshot 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    One punch
+  </h3>
+  <p
+    className=" load animate__animated animate__zoomOutDown animate__delay-1s"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
